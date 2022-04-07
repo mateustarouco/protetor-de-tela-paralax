@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.baner{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+.container{
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 130vh;
+  background: rgba(255, 233, 219, 0.3);
+}
+.container #scene .layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.container #scene .layer img{
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
